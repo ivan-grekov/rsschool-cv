@@ -42,3 +42,60 @@ _Self-education_
 ![Sertificate Udemy HTML and CSS]('./images/Sertificate_Udemy_HTML_CSS_resize.jpg')
 
 ---
+
+#### Key skills
+
+- HTML
+- CSS, SASS
+- JavaScript
+- Git
+- MS Office
+
+Languages: English (pre-intermediate)
+
+---
+
+#### Code example
+
+```
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (!ent.isIntersecting) bodyEl.classList.add("sticky");
+
+    if (ent.isIntersecting) bodyEl.classList.remove("sticky");
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+
+observer.observe(sectionHeroEl);
+```
+
+---
+
+#### Work experience
+
+Locomotive depot of Minsk, August 2015 –  
+November 2017  
+Minsk, Belarus
+Process engineer
+
+Locomotive depot of Minsk,  
+November 2017 –  
+November 2019  
+Minsk, Belarus  
+Foreman
+
+Locomotive depot,  
+November 2017 –  
+present  
+Minsk, Belarus  
+Сhief technologist
+
+---
