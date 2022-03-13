@@ -29,15 +29,15 @@ Belarusian State University (Minsk), Institute of Business and Technology Manage
 
 _Self-education_
 
-1. RSSchool course (Stage 0)
+1.RSSchool course (Stage 0)
 
 ![Sertificate RSSchool](././images/Sertificate_RS_resize.jpg)
 
-2. Udemy JavaScript course
+2.Udemy JavaScript course
 
 ![Sertificate Udemy JS](./images/Sertificate_Udemy_JS_resize.jpg)
 
-3. Udemy HTML and CSS course
+3.Udemy HTML and CSS course
 
 ![Sertificate Udemy HTML and CSS](./images/Sertificate_Udemy_HTML_CSS_resize.jpg)
 
