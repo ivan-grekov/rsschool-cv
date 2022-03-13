@@ -359,3 +359,24 @@ a:visited {
   color: #fff;
   font-size: 1.4rem;
 }
+
+/* SECTION SKILLS ******************/
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1.6rem;
+}
+
+.skills-item {
+  font-size: 1.6rem;
+  color: #8d8688;
+}
+
+.name-of-list {
+  font-size: 1.8rem;
+  color: #a16207;
+  margin-bottom: 1.8rem;
+}
