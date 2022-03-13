@@ -50,3 +50,35 @@ document.addEventListener("keydown", function (e) {
     nextSlide();
   }
 });
+
+// !Navigation dots
+const dotContainer = document.querySelector(".dots");
+const createDots = function () {
+  slides.forEach(function (_, i) {
+    dotContainer.insertAdjacentHTML(
+      "beforeend",
+      `<button class = "dots__dot" data-slide= "${i}"></button>`
+    );
+  });
+};
+createDots();
+
+const activeDot = function (slide) {
+  document
+    .querySelectorAll(".dots__dot")
+    .forEach((dot) => dot.classList.remove("dots__dot--active"));
+
+  document
+    .querySelector(`.dots__dot[data-slide="${slide}"]`)
+    .classList.add("dots__dot--active");
+};
+
+activeDot(0);
+
+dotContainer.addEventListener("click", function (e) {
+  if (e.target.classList.contains("dots__dot")) {
+    const { slide } = e.target.dataset;
+    goToSlide(slide);
+    activeDot(slide);
+  }
+});
