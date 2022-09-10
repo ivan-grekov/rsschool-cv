@@ -42,3 +42,17 @@ _Self-education_
 ![Sertificate Udemy HTML and CSS](./images/Sertificate_Udemy_HTML_CSS_resize.jpg)
 
 ---
+
+#### Key skills
+
+- HTML
+- CSS, SASS
+- JavaScript
+- Node.js
+- Git
+- Webpack
+- MS Office
+
+Languages: English (intermediate)
+
+---
