@@ -211,3 +211,132 @@ a:visited {
 .nav-open .icon-mobile-nav[name="menu-outline"] {
   display: none;
 }
+
+/* SECTION ABOUT ********************/
+
+.about-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(10, 6, 2, 0.219),
+      rgba(65, 53, 57, 0.315)
+    ),
+    url(../images/logo-img-resize.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-box h1 {
+  font-size: 3.6rem;
+  line-height: 1.1;
+  margin-bottom: 1.8rem;
+}
+
+.text-secondary,
+.text-tertiary {
+  font-weight: 600;
+  color: var(--main-font-color);
+  letter-spacing: -0.5px;
+}
+
+.text-secondary {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 3.6rem;
+}
+
+.about-text-content {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: var(--main-font-color);
+  margin-bottom: 3.6rem;
+}
+
+.section-about a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.about-text-content a:hover,
+.about-text-content a:active {
+  text-decoration: none;
+  color: #a16207 !important;
+  cursor: pointer;
+}
+
+.about-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-download-cv:link,
+.btn-download-cv:visited,
+.btn-show-modal-talk:link,
+.btn-show-modal-talk:visited,
+.btn--form {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(65, 53, 57);
+  padding: 1.6rem 1.6rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn-download-cv:hover,
+.btn-download-cv:active,
+.btn-show-modal-talk:hover,
+.btn-show-modal-talk:active,
+.btn--form:active,
+.btn--form:hover {
+  background-color: #fdf2e9;
+  color: #555;
+  box-shadow: inset 0 0 0 3px rgb(65, 53, 57);
+}
+
+.btn-show-modal-talk {
+  margin-left: auto;
+}
+
+.text-content-list {
+  list-style: none;
+}
+
+.social-container {
+  margin-bottom: 3.6rem;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 4.2rem;
+}
+
+.icon-social {
+  width: 4.2rem;
+  height: 4.2rem;
+  transition: all 0.3s;
+}
+
+.icon-social:hover {
+  color: #a16207;
+}
+
+.btn-download-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-download {
+  height: 2.4rem;
+  width: 2.4rem;
+}
