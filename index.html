@@ -300,6 +300,36 @@
             </div>
           </div>
         </section>
+
+        <section class="section-code grid grid-2-cols" id="code">
+          <div class="code-primary-textbox white-bg">
+            <h2 class="strong-section-text">
+              <strong>Code<br />&mdash;</strong>
+            </h2>
+          </div>
+          <div class="code-secondary-textbox black-bg">
+            <p class="code-title">Sticky Nav</p>
+            <pre>
+              <code>
+  const sectionHeroEl = document.querySelector(".section-hero");
+  
+  const observer = new IntersectionObserver(
+    function (entries) {
+      const ent = entries[0];
+      if (!ent.isIntersecting) bodyEl.classList.add("sticky");
+      if (ent.isIntersecting) bodyEl.classList.remove("sticky");
+    },
+    {
+      root: null,
+      threshold: 0,
+      rootMargin: "-80px",
+    }
+  );
+  observer.observe(sectionHeroEl);
+              </code>
+            </pre>
+          </div>
+        </section>
         
     </div>
   </body>
