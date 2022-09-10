@@ -496,3 +496,134 @@ a:visited {
   background-color: #888;
   opacity: 1;
 }
+
+/* SECTION CODE ******************/
+
+.code-secondary-textbox {
+  padding: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.code-title {
+  font-size: 1.8rem;
+  color: #a16207;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+pre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+pre code {
+  background-color: black;
+  display: block;
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* !Modal window */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: all ease-in-out 0.5s;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.modal *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.modal-title {
+  font-size: 1.8rem;
+  color: #a16207;
+  margin-bottom: 2.5rem;
+}
+
+.modal-text {
+  font-size: 1.6rem;
+  color: inherit;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.modal-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.4rem;
+}
+
+.modal-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.modal-form input {
+  width: 100%;
+  color: #fff;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  background-color: #a16207;
+  border-radius: 0.9rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.textarea {
+  width: 100%;
+}
+
+.modal-form input::placeholder {
+  color: white;
+}
+
+.btn--form {
+  grid-column: 1/2;
+  justify-self: start;
+}
