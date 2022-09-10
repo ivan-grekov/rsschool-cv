@@ -49,3 +49,74 @@ body {
   max-width: 80rem;
   margin: 0 auto;
 }
+
+.black-bg {
+  background-color: black;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.grid {
+  display: grid;
+  /* align-items: center; */
+}
+
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-3 {
+  column-gap: 3.2rem;
+}
+
+.strong-section-text {
+  font-size: 9.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-4 {
+  gap: 4.2rem;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.black-text {
+  color: black !important;
+}
+
+.experience-primary-textbox,
+.education-primary-textbox,
+.skills-primary-textbox,
+.projects-primary-textbox,
+.code-primary-textbox {
+  padding: 4.2rem 3.2rem;
+}
+
+.about-box,
+.experience-secondary-textbox,
+.education-secondary-textbox,
+.skills-secondary-textbox,
+.projects-secondary-textbox {
+  padding: 4.2rem 3.2rem;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 0.5rem;
+}
