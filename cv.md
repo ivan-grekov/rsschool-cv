@@ -80,3 +80,24 @@ observer.observe(sectionHeroEl);
 ```
 
 ---
+
+#### Work experience
+
+Locomotive depot of Minsk, August 2015 –  
+November 2017  
+Minsk, Belarus
+Process engineer
+
+Locomotive depot of Minsk,  
+November 2017 –  
+November 2019  
+Minsk, Belarus  
+Foreman
+
+Locomotive depot,  
+November 2017 –  
+present  
+Minsk, Belarus  
+Сhief technologist
+
+---
