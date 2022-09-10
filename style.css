@@ -220,7 +220,7 @@ a:visited {
       rgba(10, 6, 2, 0.219),
       rgba(65, 53, 57, 0.315)
     ),
-    url(../images/logo-img-resize.jpg);
+    url(./images/logo-img-resize.jpg);
   width: 100%;
   background-position: center;
   background-size: cover;
