@@ -124,3 +124,29 @@ allLinks.forEach((link) => {
       headerEl.classList.toggle("nav-open");
   });
 });
+
+// !ACTIVE MODAL WINDOW
+
+const btnShowModal = document.querySelector(".btn-show-modal-talk");
+
+const btnCloseModal = document.querySelector(".close-modal");
+
+const modalEl = document.querySelector(".modal");
+
+const overlayEl = document.querySelector(".overlay");
+
+const hiddenModalWindow = function () {
+  modalEl.classList.add("hidden");
+  overlayEl.classList.add("hidden");
+};
+
+const openModalWindow = function () {
+  modalEl.classList.remove("hidden");
+  overlayEl.classList.remove("hidden");
+};
+
+btnShowModal.addEventListener("click", openModalWindow);
+
+btnCloseModal.addEventListener("click", hiddenModalWindow);
+
+overlayEl.addEventListener("click", hiddenModalWindow);
