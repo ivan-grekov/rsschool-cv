@@ -56,3 +56,27 @@ _Self-education_
 Languages: English (intermediate)
 
 ---
+
+#### Code example
+
+```
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    if (!ent.isIntersecting) bodyEl.classList.add("sticky");
+
+    if (ent.isIntersecting) bodyEl.classList.remove("sticky");
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+
+observer.observe(sectionHeroEl);
+```
+
+---
