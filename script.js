@@ -82,3 +82,13 @@ dotContainer.addEventListener("click", function (e) {
     activeDot(slide);
   }
 });
+
+// !Active main nav
+
+const buttonActiveNav = document.querySelector(".btn-mobile-nav");
+
+const headerEl = document.querySelector(".header");
+
+buttonActiveNav.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
