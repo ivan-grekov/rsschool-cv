@@ -340,3 +340,22 @@ a:visited {
   height: 2.4rem;
   width: 2.4rem;
 }
+
+/* SECTION EXPERIENCE ******************/
+/* SECTION EDUCATION ******************/
+
+.period {
+  font-size: 1.6rem;
+  color: #8d8688;
+}
+
+.profession-institution {
+  font-size: 1.8rem;
+  color: #a16207;
+  margin-bottom: 1.8rem;
+}
+
+.work-place--certificate {
+  color: #fff;
+  font-size: 1.4rem;
+}
