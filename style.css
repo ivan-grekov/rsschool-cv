@@ -627,3 +627,17 @@ pre code {
   grid-column: 1/2;
   justify-self: start;
 }
+
+/* !FOOTER *****************************/
+
+.footer {
+  background-color: black;
+  display: flex;
+}
+
+.footer-develop-text {
+  padding: 1.2rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #fff;
+}
